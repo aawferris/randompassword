@@ -1,0 +1,27 @@
+body {
+  background-color: aliceblue;
+  font-family: "Roboto", sans-serif;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 15%;
+}
+
+#sub-container {
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 1vh 1vw;
+  box-shadow: 2px 2px darkgray;
+  background-color: white;
+}
+
+#button {
+  background-color: #3ca0f8;
+  padding: 1%;
+  color: white;
+}
