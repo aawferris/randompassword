@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script type="text/javascript" src="app.js"></script>
-    <title>Generador para Contraseñas Aleatoria</title>
+    <script defer src="./app.js"></script>
+    <title>Generador de Contraseñas Aleatoria</title>
   </head>
   <body>
-    <h1>Andrés Guillermo</h1>
-    <h3>Haz clic en el botón para generar una contraseña aleatoria nueva</h3>
-    <button onclick="gfg_Run()">Haz clic</button>
-    <div>
-      <p id="geeks"></p>
+    <div id="main-container">
+      <h1 id="title">Generador de Contraseñas Aleatoria</h1>
+      <h3 id="subtitle">
+        Haz clic en el botón para generar una contraseña aleatoria nueva
+      </h3>
+      <button id="button" onclick="gfg_Run()">Haz clic</button>
+      <div>
+        <p id="generated-pass"></p>
+      </div>
     </div>
   </body>
 </html>
