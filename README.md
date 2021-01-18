@@ -1,8 +1,8 @@
-# Project Title
+# Título de Proyecto
 
 Generador de Contraseñas Aleatoraias
 
-## Overview
+## Retrato Grande
 
 Este es un proyecto en el cual practico usar JS en contexto verdadero. Baso mi programación sobre tutoriales de GeeksForGeeks (https://www.geeksforgeeks.org/how-to-generate-a-random-password-using-javascript/) y Project Nayuki (https://www.nayuki.io/res/random-password-generator-javascript/password-generator.js). Simplemente, el sitio genera una contraseña aleatoria. Mi proyecto está escrito en español para diversificar el alcance dado que hay menos recursos en español que en inglés. Ojalá que le sirva a alguien bien!
 
