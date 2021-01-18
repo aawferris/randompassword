@@ -16,6 +16,18 @@ function generatePassword() {
 function gfg_Run() {
   generatedPass.innerHTML = generatePassword();
 }
+=======
+
+  for (let i = 1; i < 16; i += 1) {
+    let char = Math.floor(Math.random() * str.length + 1);
+    pass += str.charAt(char);
+  }
+  return pass;
+}
+
+function gfg_Run() {
+  generatedPass.innerHTML = generatePassword();
+}
 
 // SECOND ITERATION CODE - MORE COMPLEX
 
